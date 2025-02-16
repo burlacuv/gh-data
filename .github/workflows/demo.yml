@@ -48,6 +48,6 @@ jobs:
       - name: Outputs content
         run: ls
       - name: Output filename
-        run: echo "{{needs.build.outputs.vio-script}}"
+        run: echo "{{needs.build.outputs.script-file}}"
       - name: Deploy
         run: echo "Deploying..."
